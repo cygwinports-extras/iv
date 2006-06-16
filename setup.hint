@@ -1,0 +1,4 @@
+category: Graphics
+requires: cygwin gtk+ imlib libXpm4
+sdesc: "Simple GTK+ image viewer using Imlib"
+ldesc: "Simple GTK+ image viewer using Imlib"
