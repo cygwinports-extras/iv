@@ -3,20 +3,21 @@ iv
 Simple GTK+ image viewer using Imlib
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.21-2
   gtk+-1.2.10-2
   imlib-1.9.14-3
+  libXp6-1.0.0-2
   libXpm4-3.5.4.2-1
  
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  binutils-20050610-1
-  cygport-0.1.92-1
+  cygwin-1.5.21-2
+  binutils-20060817-1
+  cygport-0.2.5-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  make-3.80-1
-  sed-4.1.4-1
+  make-3.81-1
+  sed-4.1.5-1
 
 Canonical homepage:
   http://wolfpack.twu.net/IV/
@@ -27,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack iv-1.4.2-1-src.tar.bz2
+  unpack iv-2.1.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./iv-1.4.2-1.cygport all
+  cygport ./iv-2.1.1-1.cygport all
 
 This will create:
-  /usr/src/iv-1.4.2-1-src.tar.bz2
-  /usr/src/iv-1.4.2-1.tar.bz2
+  /usr/src/iv-2.1.1-1-src.tar.bz2
+  /usr/src/iv-2.1.1-1.tar.bz2
 
 -------------------------------------------
 
@@ -43,15 +44,19 @@ Files included in the binary package:
 
   /usr/bin/iv.exe
   /usr/share/applications/iv.desktop
-  /usr/share/doc/Cygwin/iv-1.4.2.README
-  /usr/share/doc/iv-1.4.2/LICENSE
-  /usr/share/doc/iv-1.4.2/README
+  /usr/share/doc/Cygwin/iv-2.1.1.README
+  /usr/share/doc/iv-2.1.1/INSTALL
+  /usr/share/doc/iv-2.1.1/LICENSE
+  /usr/share/doc/iv-2.1.1/README
   /usr/share/icons/iv.xpm
   /usr/share/man/man1/iv.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 2.1.1-1 -----
+Version bump.
 
 ----- version 1.4.2-1 -----
 Version bump.
