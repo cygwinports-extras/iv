@@ -1,4 +1,4 @@
 category: Graphics
-requires: cygwin endeavour2 glib gtk+ imlib libX11_6 libXp6 libXpm4 libgif4 libjpeg62 libpng12
+requires: cygwin endeavour2 glib gtk+ imlib libX11_6 libXpm4 libgif4 libjpeg62 libpng12
 sdesc: "Simple GTK+ image viewer using Imlib"
 ldesc: "Simple GTK+ image viewer using Imlib"
