@@ -1,0 +1,24 @@
+HOMEPAGE="http://wolfpack.twu.net/IV/"
+DESCRIPTION="GTK/Imlib image viewer"
+SRC_URI="http://wolfpack.twu.net/users/wolfpack/${P}.tar.bz2"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	./configure Cygwin --prefix=/usr --disable=libXp || error "configure failed"
+	cygmake
+}
+
+src_test() { :; }
+
+src_install() {
+	cd ${B}
+	make install \
+		PREFIX=${D}/usr \
+		MAN_DIR=${D}/usr/share/man/man1 \
+		|| error "make install failed"
+
+	bunzip2 ${D}/usr/share/man/man1/*.bz2
+
+	make_desktop_entry iv "IV Image Viewer" /usr/share/icons/iv.xpm "Graphics;Viewer"
+}

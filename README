@@ -4,7 +4,7 @@ Simple GTK+ image viewer using Imlib
 
 Runtime requirements:
   cygwin-1.5.24-2
-  endeavour2-2.7.4-1
+  endeavour2-2.8.2-1
   glib-1.2.10-3
   gtk+-1.2.10-2
   imlib-1.9.15-1
@@ -12,13 +12,13 @@ Runtime requirements:
   libXpm4-3.5.6-1
   libgif4-4.1.4-2
   libjpeg62-6b-12
-  libpng12-1.2.12-1
+  libpng12-1.2.18-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -59,6 +59,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.2.1-1 -----
+Version bump.
 
 ----- version 2.1.4-1 -----
 Version bump.  Removed libXp dependency.
